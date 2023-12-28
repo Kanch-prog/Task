@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the current page URL
+
     var currentURL = window.location.href;
-
-    // Get all navigation links
-    var navLinks = document.querySelectorAll('.nav-item a');
-
-    // Loop through each link and check if its href matches the current URL
+    var navLinks = document.querySelectorAll('.nav-item a');L
     navLinks.forEach(function(link) {
         if (link.href === currentURL) {
-            link.parentElement.classList.add('active'); // Add 'active' class to parent li
+            link.parentElement.classList.add('active'); 
         }
     });
 });
