@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav class="header-nav">
+        <div class="left">
+            <img src="images/logo.png" alt="Logo" width="100" height="50">
+        </div>
+        <div class="right-nav">
+            <div class="menu-toggle" id="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="nav-items">
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="services.html">Services</a></div>
+                <div class="nav-item"><a href="research.html">R & D</a></div>
+                <div class="nav-item"><a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+    </nav>
+    <!--contact page-->
+    <header>
+        <h1>GET IN TOUCH</h1>
+    </header>
+    <!--contact form-->
+    <section class="contact-section">
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+    
+            <button type="submit" class="button">Send</button>
+        </form>
+    </section>
+   
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">R & D</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-center">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="footer-right">
+                <p>&copy;2023. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>    
+</body>
+
+</html>
